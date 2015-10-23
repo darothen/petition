@@ -1,0 +1,41 @@
+html,body {
+  height: 100%;
+}
+
+body {
+  color: #222;
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-white {
+  background: white;
+  border-radius: 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.heading-mega {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.about-petition {
+  @media(min-width: 768px) {
+    min-height: 20vh;
+  }
+}
+
+.petition-form {
+  background: #F6F9FA;
+  height: 100%;
+  padding: 40px 0;
+
+  @media(min-width: 768px) {
+    min-height: 80vh;
+
+    iframe {
+      min-height: 80vh;
+    }
+  }
+}
